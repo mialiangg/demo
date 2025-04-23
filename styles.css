@@ -1,0 +1,134 @@
+/* Colors + Fonts */
+/* headers --> cursive font, dotted underline, shadow */
+h1, h2 {
+    font-family: Lucida Handwriting, Brush Script M7, cursive;
+    color: mediumvioletred; 
+    text-align: center; 
+    text-decoration-line: underline; 
+    text-decoration-style: dotted;
+    text-shadow: rgb(255, 0, 149) 2px 0 20px;
+}
+
+/* h3 no underline or shadow */
+h3 {
+    font-family: Lucida Handwriting, Brush Script M7, cursive;
+    color: mediumvioletred; 
+    text-align: center;
+}
+
+/* p, ul --> monospace, dark red */
+p, ul {
+    font-family: Lucida Console, Monaco, monospace;
+    color: rgb(116, 0, 58);
+    line-height: 1.6em;
+}
+
+/* a --> monospace, light red */
+a {
+    font-family: Lucida Console, Monaco, monospace;
+    color: #d30058
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    text-align: center;
+    padding: 20px;
+}
+
+/* style my links */
+a:link, a:visited {
+    color: #7400d3
+    text-decoration: underline;
+}
+
+a:hover{
+    color: rgb(34, 0, 255);
+    font-size: 120%;
+}
+
+a:active{
+    text-decoration: none
+}
+
+/* navigation bar styling */
+.first {
+    background-color: rgba(255, 150, 232, 0.447);
+    padding: 20px;
+}
+
+.second {
+    background-color: rgba(232, 182, 255, 0.504);
+    padding: 20px;
+}
+
+.element{
+    border-style: double;
+    border-color: white;
+}
+
+/* add background color */
+body{
+    background-color: rgba(170, 0, 82, 0.471)
+}
+
+/* format paragraphs */
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+/* Box Model Stuff */
+#container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#externallink {
+    text-align: center; 
+    display: block;
+    border-style: dashed;
+    border-color: #d30058;
+    margin: 2em;
+    padding: 15px;
+}
+
+/*format images */
+.center {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.parentpicture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: white, groove;
+    margin: 2em;
+}
+
+.childpictures {
+    padding: 15px;
+}
+
+/*format footers */
+footer{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 1.6em;
+}
